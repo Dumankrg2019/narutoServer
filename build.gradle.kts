@@ -38,6 +38,7 @@ dependencies {
     implementation("io.ktor:ktor-server-default-headers:$ktor_version")
 
     //implementation("io.ktor:ktor-server-status-pages:2.2.0")
+    implementation("io.ktor:ktor-server-status-pages:$ktor_version")
 
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
